@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aws-app-deployment
+  labels:
+    app: aws-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aws-app
+  template:
+    metadata:
+      labels:
+        app: aws-app 
+    spec:
+      containers:
+      - name: aws-app
+        image: docker.io/mayerlbp/awscli:v10.0.0
+        env:
+          - name: AWS_DEFAULT_REGION
+            value: "replace it"
+          - name: AWS_ACCESS_KEY_ID 
+            value: "replace it"
+          - name: AWS_SECRET_ACCESS_KEY 
+            value: "replace it"
+          - name: AWS_ELASTICACHE_ENDPOINT 
+            value: "replace it"
