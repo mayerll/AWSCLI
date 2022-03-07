@@ -4,7 +4,7 @@ Please refer to the following information to deploy a basic deployment on Elasti
 
 1 Run the following commands to bake the image:
 
-  docker build . -t mayerlbp/awscli:v10.0.0
-  docker push mayerlbp/awscli:v10.0.0
+    docker build . -t mayerlbp/awscli:v10.0.0
+    docker push mayerlbp/awscli:v10.0.0
   
 ![alt text](https://github.com/mayerll/AWSCLI/blob/main/image/pic5.png?raw=true)
