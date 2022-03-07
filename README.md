@@ -29,5 +29,13 @@ Please refer to the following information to deploy a basic deployment on Elasti
 4 Check the logs of the deployment aws-app:
 
 ![alt text](https://github.com/mayerll/AWSCLI/blob/main/image/pic7.png?raw=true)
+
+Other solution:
+
+We can deploy aws-app by running the command:
+
+    $ kubectl create -f ./*.yaml
+    
+(Please modify the env in yaml or create secret.yaml to store the secrets, I don't commit it for the security reason" 
     
 
