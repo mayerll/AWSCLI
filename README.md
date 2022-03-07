@@ -28,6 +28,6 @@ Please refer to the following information to deploy a basic deployment on Elasti
 
 4 Check the logs of the deployment aws-app:
 
-![alt text](https://github.com/mayerll/AWSCLI/blob/main/image/pic8.png?raw=true)
+![alt text](https://github.com/mayerll/AWSCLI/blob/main/image/pic7.png?raw=true)
     
 
