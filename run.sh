@@ -1,3 +1,6 @@
+docker build . -t mayerlbp/awscli:v10.0.0
+docker push mayerlbp/awscli:v10.0.0
+
 kubectl create deployment --image=mayerlbp/awscli:v10.0.0 aws-app
 
 kubectl set env deployment/aws-app AWS_ACCESS_KEY_ID='replace it' 
