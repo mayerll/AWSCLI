@@ -24,4 +24,8 @@ Please refer to the following information to deploy a basic deployment on Elasti
     $kubectl get deploy
     $kubectl get pod
     
+![alt text](https://github.com/mayerll/AWSCLI/blob/main/image/pic6.png?raw=true)
+
+4 Check the logs of the deployment aws-app:
+    
 
